@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>캘린더</title>
-    <link rel="stylesheet" href="main.css">
     <head>
       <style>
         /* 캘린더 컨테이너 스타일 */
         .calendar {
           width: 1000px;
-          height: 1000px;
+          height: 500px;
  
           padding: 100px;
           display: grid;
@@ -44,32 +43,12 @@
           background-color: #f5f5f5;
           border: 1px solid black;
         }
-
-        .calendar-lastday {
-          text-align: left;
-          padding: 5px;
-          background-color: white;
-          border: 1px solid black;
-          color: cadetblue;
-
-        }
-
-        .calendar-nextday {
-          text-align: left;
-          padding: 5px;
-          background-color: white;
-          border: 1px solid black;
-          color: cadetblue;
-
-        }
-          
         .mainimage {
           text-align: center;         
         }
 
         .month {
           text-align: center;
-          border: 1px solid black;
         }
 
         footer {
@@ -77,7 +56,6 @@
           color: black;
           text-align: center;
           padding: 0.7rem;
-          border: 1px solid black;
         }
 
         .schedule {
@@ -93,15 +71,12 @@
         }
 
         button {
-          width: 20px;
           height: 20px;
         }
 
-   .new { 
-    border-radius: 10px;
-    text-align: left;
-    border: 1px solid blue;
-
+   .new {
+    width: 1000px;
+    text-align: center;
    }
 
       </style>
@@ -126,10 +101,8 @@
         <div class="calendar-day1">목</div>
         <div class="calendar-day1">금</div>
         <div class="calendar-day1">토</div>
-        <div class="calendar-lastday">28</div>
-        <div class="calendar-lastday">29</div>
-        <div class="calendar-lastday">30</div>
-        <div class="calendar-lastday">31</div>
+        <div class="calendar-day"></div>
+        <div class="calendar-day"></div>
         <div class="calendar-day">1</div>
         <div class="calendar-day">2</div>
         <div class="calendar-day">3</div>
@@ -175,14 +148,6 @@
         <div class="calendar-day">28</div>
         <div class="calendar-day">29</div>
         <div class="calendar-day">30</div>
-        <div class="calendar-nextday">1</div>
-        <div class="calendar-nextday">2</div>
-        <div class="calendar-nextday">3</div>
-        <div class="calendar-nextday">4</div>
-        <div class="calendar-nextday">5</div>
-        <div class="calendar-nextday">6</div>
-        <div class="calendar-nextday">7</div>
-        <div class="calendar-nextday">8</div>
       </div>
     </section>
     <footer>

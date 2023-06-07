@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>챌린지 추가(횟수)</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      h1 {
+        /* h1 tag box 의 배경색을 노랑색 */
+        background-color: white;
+        /* h1 tag 의 text content 의 색(글자색)을 파랑 */
+        color: blue;
+        /* 화면에 보여지는 Text(글자)의 크기를 지정하기 10pt */
+        font-size: 10pt;
+        /* 화면에 보여지는 Text(글자)의 스타일 지정하기 italic은 약간 기울림*/
+        font-style: italic;
+        padding: 10px;
+        text-align: center;
+      }
+
+      /* input tag 에 공통으로 적용할 style*/
+      /* input.color = blue */
+      input {
+        color: blue;
+        /* padding 은 tag 내부에 여백을 추가하여 부풀리기 */
+        padding: 10px;
+        /* margin 은 tag 외부에 여백을 추가하여  다른 tag 와 간격 부풀리기 */
+        margin: 5px;
+      }
+
+      /*input tag 중에 id(#)가 email 인 친구 */
+      /* input#email.color = red */
+      input#placeholder {
+        /* id(#)가 email 인 input tag 를 만나면
+      이미 input tag 의 컬러가 블루 이지만 무시하고 다시 red로 설정된다 */
+        color: red;
+      }
+      /*input tag 중에 id(#)가 password 인 친구 */
+      /* input#password.color = red */
+      input#password {
+        /* id(#)가 password 인 input tag 를 만나면
+      이미 input tag 의 컬러가 블루 이지만 무시하고 다시 yellowgreen로 설정된다 */
+        color: yellowgreen;
+      }
+
+      div {
+        /* tag 의 태두리를 설정하는 속성 */
+        /* 1px : 1px 두깨의 선
+           solid : 실선 (여러가지 선을 고를수 있다)
+           green : 선의 색상 */
+        margin: 5px;
+        padding: 5px;
+        /* box tag 내부에 포함된 content 들을 가운데 정렬 */
+        text-align: center;
+      }
+
+      button {
+        width: 200px;
+        padding: 5px;
+        border: none;
+      }
+
+      /* button tag 중에 class 속성이 login 인 친구 */
+      button.login {
+        background-color: blue;
+        color: white;
+      }
+
+      /* button tag 중에 class 속성이 naver_login 인 친구 */
+      button.naver_login {
+        background-color: yellow;
+        color: black;
+      }
+
+      a {
+        /* 보통 a tag 의 글자 장식(라인모양)을 변경할때
+           a tag 의 기본 및줄 제거하기 */
+        text-decoration: none;
+      }
+      .image {
+
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="mainimage.png" width="1000px" />
+    <div>
+      <div> 챌린지 추가하기</div>
+     <button> 기간 </button>
+     <button> 횟수 </button>
+     <div>
+      <div class="image">
+        <img src="star.jpg" width="50px" />
+        <input placeholder="챌린지를 적어주세요" />
+      </div>
+      <div>
+        <div class="image">
+          <img src="sch.jpg" width="50px" />
+          <input placeholder="챌린지를 적어주세요" />
+        </div>
+        <div>
+          <div class="image">
+            <img src="clo.jpg" width="50px" />
+            <input placeholder="챌린지를 적어주세요" />
+          </div>
+          <div>
+            <div class="image">
+              <img src="memo.jpg" width="50px" />
+              <input placeholder="챌린지를 적어주세요" />
+            </div>
+    <button> 저장 </button>
+    <footer>
+      <address>CopyRight &copy; marpol@marpol.com</address>
+    </footer>
+  </body>
+</html>
