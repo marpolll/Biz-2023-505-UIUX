@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="join.css" />
+    <script src="join.js"></script>
+  </head>
+  <body>
+    <form id="join_form" action="">
+      <h2>회원가입</h2>
+      <div>
+        <!-- <label for="">이름</label> -->
+        <input type="text" id="username" name="username" placeholder="이름" />
+      </div>
+      <div>
+        <!-- <label for=""> 비밀번호</label> -->
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="비밀번호"
+        />
+      </div>
+      <div>
+        <!-- <label for=""> 비밀번호 확인</label> -->
+        <input
+          type="password"
+          id="re_password"
+          name="re_password"
+          placeholder="비밀번호 확인"
+        />
+      </div>
+      <div>
+        <!-- <label for=""> 이메일</label> -->
+        <input type="email" id="email" name="email" placeholder="이메일" />
+      </div>
+      <div>
+        <!-- <label for=""> 전화번호</label> -->
+        <input type="tel" id="tel" name="tel" placeholder="전화번호" />
+      </div>
+      <div>
+        <label for=""></label>
+        <button type="button" id="join_button">회원가입</button>
+      </div>
+    </form>
+  </body>
+</html>
